@@ -4,7 +4,7 @@ from datasets import Dataset
 from transformers import Trainer, TrainingArguments, AutoModelForCausalLM, AutoTokenizer
 
 # Load dataset from merged CSV
-merged_data_path = '/Users/anshgupta/Desktop/MindMate/data/merged_df.csv'
+merged_data_path = '/Users/vimarsh/Desktop/MindMate/data/merged_df.csv'
 merged_df = pd.read_csv(merged_data_path)
 
 # Remove rows with missing prompt or response
